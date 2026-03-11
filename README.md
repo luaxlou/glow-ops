@@ -2,6 +2,22 @@
 
 `glow-ops` 是运维与控制面仓库，提供 `glow-server` 与 `glow-cli`。
 
+## 快速决策：我该看哪个仓库？
+
+| 你的目标 | 去哪个仓库 |
+|---|---|
+| 写业务代码、接入 SDK/starter | [`glow`](https://github.com/luaxlou/glow) |
+| 做发布与运维编排、控制面治理 | [`glow-ops`](https://github.com/luaxlou/glow-ops) |
+
+## 双仓关系图
+
+```text
++-------------------+         depends on starters         +-------------------+
+|      glow-ops     | ----------------------------------> |       glow        |
+| (server/cli/ops)  |                                     | (starter/sdk)     |
++-------------------+                                     +-------------------+
+```
+
 ## 这个仓库解决什么问题
 
 如果你需要管理应用运行生命周期与运维能力（而不是写业务代码），你应该使用这个仓库：
