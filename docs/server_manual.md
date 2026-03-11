@@ -1,3 +1,7 @@
+## 仓库职责说明
+
+本手册属于 **glow-ops 运维仓**，负责 glow-server/glow-cli 与运维生命周期。应用侧 starter/SDK 已位于 **glow 框架仓**。
+
 # Glow Server 用户手册
 
 `glow-server` 是 Glow 框架的核心组件，运行在宿主机上，负责应用的全生命周期管理、配置存储与基础设施对接。

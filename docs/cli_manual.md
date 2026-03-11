@@ -1,3 +1,7 @@
+## 仓库职责说明
+
+本手册属于 **glow-ops 运维仓**。CLI 用于运维控制面交互；应用 SDK/starter 使用请查看 **glow 框架仓**。
+
 # Glow CLI 用户手册
 
 `glow` 是与 Glow Server 交互的命令行工具，采用声明式配置设计，通过 `glow apply` 命令统一管理应用配置和资源绑定。
